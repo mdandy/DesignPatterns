@@ -33,17 +33,17 @@ Java has built-in interface for this pattern: `java.util.Observer` and `java.uti
 	}
 	
 	/** The Observers **/
-	public class EventHandlerA implement Observer {
+	public class EventHandlerA implements Observer {
 		@Override
 		public void update(Observable o, Object arg) {}
 	}
 	
-	public class EventHandlerB implement Observer {
+	public class EventHandlerB implements Observer {
 		@Override
 		public void update(Observable o, Object arg) {}
 	}
 	
-	/** The Driver **/
+	/** The Client **/
 	public class MyApp {
 		public static void main(String[] args) {
 			Observable eventSource = new EventSource();

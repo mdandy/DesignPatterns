@@ -59,7 +59,7 @@ A software design pattern that allows behavior to be added to an individual obje
 		}
 	}
 	
-	/** The Driver **/
+	/** The Client **/
 	public class MyApp {
 		public static void main(String[] args) {
 			Beverage beverage = new Espresso();

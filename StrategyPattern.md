@@ -13,14 +13,16 @@ A software design pattern in which an algorithm's behavior can be selected at ru
 ```java
 	/** The Strategies **/
 	public interface Strategy {
-		public int foo();
+		int foo();
 	}
 	
 	public class ConcreteStrategyA implements Strategy {
+		@Override
 		public void foo() {}
 	}
 	
 	public class ConcreteStrategyB implements Strategy {
+		@Override
 		public void foo() {}
 	}
 	

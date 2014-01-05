@@ -17,11 +17,11 @@ A facade is an object that provides a simplified interface to a larger body of c
 ```java
 	/** The Subsystem classes **/
 	public class Subsystem1 {
-		public void foo();
+		public void foo() {}
 	}
 	
 	public class Subsystem2 {
-		public void bar();
+		public void bar() {}
 	}
 	
 	/** The Facade **/

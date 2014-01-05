@@ -13,7 +13,7 @@ A behavioral design pattern in which an object is used to represent and encapsul
 ```java
 	/** The Command **/
 	public interface Command {
-		public void execute();
+		void execute();
 	}
 	
 	public class ConcreteCommand implements Command {
@@ -23,6 +23,7 @@ A behavioral design pattern in which an object is used to represent and encapsul
 			this.receiver = receiver;
 		}
 
+		@Override
 		public void execute() {
 			this.receiver.action();
 		}

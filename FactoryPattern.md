@@ -31,7 +31,7 @@ An object-oriented creational design pattern that creates objects without exposi
 	
 	/** The Products **/
 	public interface Product {
-		public void foo();
+		void foo();
 	}
 	
 	public class ConcreteProductA implements Product {
@@ -93,7 +93,7 @@ An object-oriented creational design pattern to implement the concept of factori
 	
 	/** The Product **/
 	public interface Product {
-		public void bar();
+		void bar();
 	}
 	
 	public class ConcreteProduct implements Product {
@@ -135,8 +135,8 @@ An object-oriented creational design pattern that produces objects that follow a
 ```java
 	/** The Factories **/
 	public interface class AbstractFactory {
-		public AbstractProductA createProductA();
-		public AbstractProductB createProductB();
+		AbstractProductA createProductA();
+		AbstractProductB createProductB();
 	}
 	
 	public class ConcreteFactory1 implements AbstractFactory {
@@ -165,7 +165,7 @@ An object-oriented creational design pattern that produces objects that follow a
 	
 	/** The Products **/
 	public interface AbstractProductA {
-		public void foo();
+		void foo();
 	}
 	
 	public class ConcreteProductA1 implements AbstractProductA {
@@ -179,7 +179,7 @@ An object-oriented creational design pattern that produces objects that follow a
 	}
 	
 	public interface AbstractProductB {
-		public void bar();
+		void bar();
 	}
 	
 	public class ConcreteProductB1 implements AbstractProductB {

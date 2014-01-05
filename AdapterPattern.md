@@ -13,12 +13,12 @@ A design pattern that translates one interface for a class into a compatible int
 ```java
 	/** The Target **/
 	public interface Target {
-		public void foo();
+		void foo();
 	}
 	
 	/** The Adaptee **/
 	public interface Adaptee {
-		public void bar();
+		void bar();
 	}
 	
 	/** The Adapter **/
